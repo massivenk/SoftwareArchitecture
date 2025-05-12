@@ -1,0 +1,13 @@
+Function Requirement
+  Feature requirement gathering follows two methods for a complex system
+    USE CASE  - scenrio in which a system is used
+        identify users/actors for the system
+        capture and describe all possible scenerios
+    USER FLOW - Geographical representation of each use case
+        expand use case through flow of events
+        events contain : ACTION and DATA(to and from)
+
+Unified Modeling Languege (UML) - Sequence diagram
+   interaction between actors and objects
+   standard for visualising system design
+   Output of the sequence diagram provides API calls details

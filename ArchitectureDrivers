@@ -1,4 +1,5 @@
 Function Requirement
+
   Feature requirement gathering follows two methods for a complex system
     USE CASE  - scenario in which a system is used
         identify users/actors for the system
@@ -11,3 +12,10 @@ Unified Modeling Languege (UML) - Sequence diagram
    interaction between actors and objects
    standard for visualising system design
    Output of the sequence diagram provides API (eg HTTP verbs) calls details
+
+Quality Attributes non-functional requirements
+   provide a quality measure on how well the system performs on a particular dimension
+   measurable and testable -  otherwise we wont know if they perform well or poorly
+   Tradeoffs - no systems can provide all the quality attributes
+   Feasibility - make sure the system is capable to deliver the requirement
+

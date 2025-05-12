@@ -1,0 +1,58 @@
+What is Software architecture
+     intent of the product and qualities
+     infinite ways to orgaise code
+     impacts : Performance and scale of the product , Ease of adding features and how it response to failure and/or security attack , cost of redisign
+
+The software architecture of a system is a high-level description of a system's structure . its different components, and how those components communicate with each other to fulfill the systems requirements and constrains
+      High-Level systems structure - Technologies , progamming langueges not part of the architecture but part of the implementation stage
+                                   -  Decisions about implementation should be delayed to teh very end of the design
+      components       - Black box elements defined by their behavior and API's
+                       - components may be complex systems with their own software architecture diagrams
+      communication    - protocols used by the components internally and externally
+      requirements     - components come together to do what the systems is intended to do as required
+      constrains       - system does not what it shouldn't do 
+
+Software Development Cycle
+
+DESIGN -------> Implementation --------> Testing -----------> Deployment
+ repeatable with incremental changes
+ Software architecture is the output of the Design phase and the input of the implementation phase
+DESIGN is aimed at defining the process which will then be implemented by Engineers
+
+SOFTWARE Architecture
+  Methodical Design Process
+  Architectural Patterns
+  Best Practice
+
+Gathering of the requirements , part of the edesign cycle , can be costly if the requirements are misunderstood and already sent to implementation (Large Systems are not easily changed)
+  Types of Requirements  = Architectural Drivers
+    Functional requirements [Features and System]  - What system must do 
+    Non-Functional requiremetns [Quality Attributes] - What system must have well architected framework pillars , different architectures provide different attributes
+    Limitation and boundaries [System Constrains] - Discipline =  Iron Tringle , Time , Cost and Resources (affects quality)
+
+Consider Green Field and Brown Field projects - when gathering requirements 
+
+
+
+What is Design Pattern  : reusable patterns , standalone ,  better code organisation , sungle application / libraries
+What is Architecture Pattern : multiple independent service different language non object-oriented
+What is Object-oriented programming
+   computer progamming model that organizes software design around data or objects (rather than functions or logic)
+   objects needs to be manipulated rather than logic required to manipulate them
+   great for large complex and actively updated or maintained programmes
+   object-oriented program best for - collaborated development , projects devided into groups , code reusability , scalability and effeciency
+
+Objects  - once are knowned and grouped they are called class of object
+method   - a distinct logic sequence
+messages - well defined interfaces
+data modeling - collection ofo the objects a programmer wants to manipulate and identify and how they relate to each other
+    examples of objects :  physical entities , human being with properties like name and address , small computer programmes like widgets
+
+Structure
+ Building blocks of object-oriented progammes 
+    Classes - user defined data types , blueprint of individual objects , attributes and methods
+    Objects - are instances of class created with specifically defined data. These can be real-world objects or obstracts
+            - when class is initially defines only object is description
+    methods - are functions that objects can perform , methods are defined inside a class describing the bahaviour of the object
+    attributes - represent the state of an object , they distiguish classes , objects have data stored in attributes
+

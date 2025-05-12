@@ -1,6 +1,6 @@
 Function Requirement
   Feature requirement gathering follows two methods for a complex system
-    USE CASE  - scenrio in which a system is used
+    USE CASE  - scenario in which a system is used
         identify users/actors for the system
         capture and describe all possible scenerios
     USER FLOW - Geographical representation of each use case
@@ -10,4 +10,4 @@ Function Requirement
 Unified Modeling Languege (UML) - Sequence diagram
    interaction between actors and objects
    standard for visualising system design
-   Output of the sequence diagram provides API calls details
+   Output of the sequence diagram provides API (eg HTTP verbs) calls details

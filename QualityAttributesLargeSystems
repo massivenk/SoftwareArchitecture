@@ -1,7 +1,28 @@
 Performance
    Response time -  speed (end to end latency)
-   Time betwween client sending request and receiving a responce
+   Time between client sending request and receiving a responce
       Processing Time = time spent in the system actively processing the request and building/sending the responce
       Waiting Time    = duration of time request/response spends inactively in a system (latency)
-  Distruibuted logging system - Thoughput
+  Distributed logging system - Thoughput
+      amount of work performed by the system per unit of time (tps) or amount of data processed by the system per unit of time (bps)
+
+Measuring Response Time  - need to consider processing time and waiting time 
+   waiting time software queues , network serialisation etc  : how is the application build and how is the network , can increase average response time
+Response time distribution
+   sample response should be the same , 
+   use Histogram 
+Tail Latency should be used to calclulate the distributed systems instead of average and mediuan
+
+Degradation point
+
+Investigate
+   CPU utilisation - server performance
+   Memory utilisation of the processes too many connections
+   Message queue is too high
+
+Performance =  End to End Latency
+   Latency
+   Throughput 
+ System
+ Network
    

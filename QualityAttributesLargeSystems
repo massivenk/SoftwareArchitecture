@@ -1,0 +1,7 @@
+Performance
+   Response time -  speed (end to end latency)
+   Time betwween client sending request and receiving a responce
+      Processing Time = time spent in the system actively processing the request and building/sending the responce
+      Waiting Time    = duration of time request/response spends inactively in a system (latency)
+  Distruibuted logging system - Thoughput
+   

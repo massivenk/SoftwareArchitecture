@@ -1,4 +1,4 @@
-Function Requirement
+FUNCTION REQUIREMENTS
 
   Feature requirement gathering follows two methods for a complex system
     USE CASE  - scenario in which a system is used
@@ -13,9 +13,20 @@ Unified Modeling Languege (UML) - Sequence diagram
    standard for visualising system design
    Output of the sequence diagram provides API (eg HTTP verbs) calls details
 
-Quality Attributes non-functional requirements
+QUALITY ATTRIBUTES 
+   non-functional requirements
    provide a quality measure on how well the system performs on a particular dimension
    measurable and testable -  otherwise we wont know if they perform well or poorly
    Tradeoffs - no systems can provide all the quality attributes
    Feasibility - make sure the system is capable to deliver the requirement
+
+SYSTEMS CONSTRAINS 
+   A decision that was already either fully or partially made for us , restricting out degree of freedom
+   Pillars for Software Architecture , solid starting point
+ Constrains
+   Technical constrains
+   Business constrains
+   Regulatory / legal constrains
+ Real constrains vs Self-imposed constrains
+ Use loosely coupled architecture (decoupled)
 

@@ -8,7 +8,7 @@ FUNCTION REQUIREMENTS
         expand use case through flow of events
         events contain : ACTION and DATA(to and from)
 
-Unified Modeling Languege (UML) - Sequence diagram
+Unified Modeling Languege (UML) - Sequence diagram  [Data Architecture]
    interaction between actors and objects
    standard for visualising system design
    Output of the sequence diagram provides API (eg HTTP verbs) calls details

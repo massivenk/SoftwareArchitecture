@@ -1,0 +1,26 @@
+Scalability 
+   measure of systems ability to handle a growing about of work , in an easy and cost effective way by adding resources to the system
+ three option to scale
+   Vertical scaling    - adding resources or upgrading the existing resources on a single computer , to allow system, to handle higher traffic load
+   Horizontal scaling  - adding more resources in a form of new instances running on different machines , allows syste to handle higher traffic
+   Team organisation scalability
+
+Availability =  The fraction of the time or probability that the service is operationally functional and accessible to the users
+   uptime = Time that our system is operationally functional and accessible to the users
+   downtime = Time that the system is unavailable to the user
+   availability (in %) = uptime / entire time the system is running (uptime + downtime)   || Availability = MTBF / (MTBF + MTTR)
+MTBF = Mean Time Between Failure  , represents the average time the system is operational
+     = looks at the entire systems hardware component , each componet has its own operational shelf life
+     = cloud and service providers typically provide these ratios upfront
+MTTR = Mean Time to Recovery , time average it takes to detect and recover from failure
+     = average downtime of the system
+
+Failures
+  Human error failures
+  Software error failure : Long garbage collections , out-of-memory exceptions , Null pointer exceptions , Segmentation faults
+  Hardware failure , servers , network failture (infrastructure)
+ Failure is inevitable
+  Failture Prevetion
+  Failure Detection and Isolation
+  Failure Recovery
+       

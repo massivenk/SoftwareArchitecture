@@ -1,1 +1,18 @@
+Remote Procedure Calls - RPC
+   Allows a client to execute sub routine on a remote server
+   local transparency locally or remotely executed call looks the same
+   RPC framework *
+      Client Stub
+      Server Stub
+      Interface Description Language
+  RPC  is more about Actions and less around Data/Resources , every actions is a new method with a different name and signature 
 
+Benefits
+  same actions and call for local callsto remote methods 
+Drawbacks 
+  Slow and unreliable
+Remediation
+  Asyncronous version
+Best used for communication between backend systems for large systems
+
+gRPC

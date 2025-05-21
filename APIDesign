@@ -1,0 +1,52 @@
+Once Functional requirements are captured - system is a blackbox  [System has inputs and outputs]
+Blackbox =  has a Behavior and a well defined interface
+
+interface is a contract between Engineers who implement the system and client applications who use the system
+interface is called by other applications and referred to as an Application Programming Interface (API)
+The API are called remotelt via a Network
+   Frontend clients - Mobile applications , web browser
+   Bankend Systems  - that belong to other companies
+   Internal systems - within an organisation
+Each component of the system will have its own API
+
+API Categories
+ Public APIs   - open for public use for developers , need to register before allowing to send request and use system
+    Control of who uses the system externally
+    Control on how to use the system
+    Better Security
+    Blacklist users breaking the rules
+ Private APIs
+   Exposed Internally in the organisation
+   Take advantage of other systems
+   Provide bigger value for the company
+   not exposing system external the organisation
+ Partner APIs
+  Similar to public APIs exposed to company / user with business relationship
+  Customer agreements after buying product / service
+Complete Encapsulation *
+  abstract it away from a developer wanting to use the system
+  require any info about implemented system , want to know about business logic of the application
+  encapsulation is crucial for defining clear and consistent interfaces. By exposing only essential methods and hiding implementation details
+APIs should be decoupled from internal design and implementation
+   Fullfil 
+     One way to get certian data / perform task
+     Descriptive names for actions and resources
+     Expose only information and actions that users need
+     Consistency across the API
+   Operations Idempotent
+     An operation doesn't have any additional effect on the results if it is performed more than once
+ API Pagination *
+   responce from the system to the client request contains a very large payload or dataset
+   Purpose , allow request only a small segment of the response , specify the max size of each response from the system , specify an offset within the overall dataset
+     to receive the next segment we increment the offset [OFFSET] Page-Based and Cursor-Based
+Asynchronous Operations
+    When an operation needs one big result at the end
+    nothing meaningfull can be provided before the entire operations finishes
+Versioning API is best practice 
+Best Practice
+  Complete Encapsulation
+  Ease of use
+  Making our operations idempotent
+  API pagination
+  Asynchronous Operations
+  API versioning
